@@ -1,0 +1,17 @@
+.body-bg {
+    background-color: #e97e70;
+}
+
+.contents {
+    background-color: #42515f;
+}
+
+.contents-darker {
+    background-color: #30363b;
+}
+
+.center-white {
+    text-align: center;
+    color: white;
+    font-family: Geneva;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        body { margin: 0; }
+        #gui_container{
+            position: absolute;
+            top: 25%;
+            left: 84%;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar navbar-expand-sm navbar-dark" style="background-color: #42515f;">
+        <a class="navbar-brand">Toon Material</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="navbar-collapse collapse" id=navbarSupportedContent>
+            <ul class="navbar-nav ml-auto">
+                <li>
+                    <a class="nav-link" href="../../homepage.html">Homepage</a>
+                </li>
+
+                <li class="active">
+                    <a class="nav-link" href="#">Ambient Light</a>
+                </li>
+
+                <li>
+                    <a class="nav-link" href="../HemiSphere Light/indexHemiSphere.html">HemiSphere Light</a>
+                </li>
+
+                <li>
+                    <a class="nav-link" href="../Directional Light/indexDirectional.html">Directional Light</a>
+                </li>
+
+                <li>
+                    <a class="nav-link" href="../SpotLight/indexSpotLight.html">Spotlight</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script type="module" src="script.js">
+    </script>
+    <!-- <script src="script.js"></script> -->
+    <canvas id="c"></canvas>
+    <div id="gui_container">
+    </div>
+</body>
+</html>
